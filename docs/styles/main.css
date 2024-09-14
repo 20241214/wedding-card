@@ -576,7 +576,26 @@ pre code {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
+    margin-bottom: 20px;
 }
+
+.container .mainpage{
+    display: block;
+    height: 1423px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.container .mainpage .item{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+
 
 @media (min-width: 576px) {
     .container {
@@ -9756,11 +9775,10 @@ body {
 
 /* Home Page Style */
 .ww-home-page {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/main-background.jpg") no-repeat center center;
-    background-size: cover;
-    background-position: 50%;
-    height: 100vh;
-    min-height: 480px;
+    display: block;
+    height: 1423px;
+    min-height: 1423px;
+    position:absolute;
 }
 
 .ww-home-page .ww-wedding-announcement {
@@ -10059,3 +10077,140 @@ body {
     left: 0;
     margin: 0px 15px 15px 15px;
 }
+
+
+
+
+/*
+*/
+@charset "UTF-8";
+
+body::-webkit-scrollbar {
+    display: none;
+}
+.swiper-container {
+    position: relative;
+    overflow: hidden;
+}
+.area {
+padding: 0 10%;
+}
+
+h2,
+.area h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.sound {
+overflow: hidden;
+text-indent: -5000px;
+position: absolute;
+line-height: 0;
+font-size: 0;
+width: 0;
+height: 0;
+}
+
+input:focus {
+outline: 0;
+}
+
+.btn {
+display: block;
+width: 100%;
+height: 50px;
+line-height: 50px;
+font-size: 15px;
+text-align: center;
+background: #757575;
+color: #fff;
+font-family: "Noto Sans KR", sans-serif;
+letter-spacing: -0.38px;
+font-weight:bold;
+}
+
+.img_con img {
+max-width: 100%;
+}
+
+p2 {
+display: block;
+margin-left: 15px;
+margin-right: 0;
+}
+
+.w-btn {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.w-btn-outline {
+    position: relative;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 400;
+    transition: 0.25s;
+    margin: auto;
+}
+
+.w-btn-outline:hover {
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.w-btn-outline:active {
+    transform: scale(1.5);
+}
+
+.w-btn-indigo-outline {
+    border: 3px solid aliceblue;
+    color: #1e6b7b;
+}
+
+.w-btn-indigo-outline:hover {
+    color: #1e6b7b;
+    background: aliceblue;
+}
+
+table.type10 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: auto;
+  }
+  table.type10 thead th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #000;
+    background: aliceblue;
+    margin: auto;
+  }
+  table.type10 tbody th {
+    width: 150px;
+    padding: 10px;
+  }
+  table.type10 td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+  }
+  table.type10 .even {
+    background: aliceblue;
+  }
